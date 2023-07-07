@@ -1,0 +1,9 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path id="Notifica&#195;&#167;&#195;&#163;o" d="M0 0H25V25H0V0Z" fill="url(#pattern0)" fill-opacity="0.9"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_25_20" transform="scale(0.03125)"/>
+</pattern>
+<image id="image0_25_20" data-name="icons8-lembrete-de-compromissos-32.png" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABC0lEQVR4nO2XQUrDQBiFZ2M3ZiFddemyKLpreoWmV5Nqgwdw0Z09gPQepQdo1oUulBakfDL2CRqI0uFvQmMeDITJvP99k0wgv3ONAgUMgAxY+mtXttgHf2lZBcAP/R8AoAvc5QE01z1mcAu4B94plr83As6OET5TyAYYAzFwrhFrbqs1L95jCZCqsD/5N7+su/32dYytwq+BnXZeGJ6D2MpzZQHwqB09BDyx1AJgoWK9Azx9eeYWAG8qFh3gieR5tQD4VFk+s0INAM0rCDw7ZoXqAQBcqs4qwLuWtxMa3gamKjIJ8D/L+wRchACY6vQA/hIwVF/gR+LKFvvgSvuCrGqARP9/1bRmri76AO1wwmWPfc7pAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

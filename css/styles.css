@@ -1,0 +1,133 @@
+.finautica{
+    font-family: megrim;
+    font-size: 42px;
+    color: #2F2D2E;
+}
+
+.background-menu{
+    background-color: #1D1E20;
+}
+
+body { 
+    min-height: 100vh;
+}
+
+.background-image{
+    background-color: #1D1E20;
+    width: 100%;
+}
+
+.button-menu{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-image: url("../images/icon-menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.button-menu-notificacao{
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: middle;
+    background-image: url("../images/notificacao.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.button-close-color{
+    color: #fff;
+}
+
+.navlink-light-color{
+    color:#fff;
+}
+
+.navlink-light-color:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navlink-light-color:visited{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.title-page{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.text-color{
+    color: #545454;
+}
+
+.btn-white, .btn-white:hover, .btn-white:visited{
+    border-radius: 3px;
+    background: rgba(217, 217, 217, 0.25);
+    color: #FFF;
+    text-align: center;
+    text-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 100%;
+}
+
+.btn-green, .btn-green:hover, .btn-green:visited{
+    border-radius: 3px;
+    background: rgba(137, 176, 174, 0.25);
+    color: #FFF;
+    text-align: center;
+    text-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 100%;
+}
+
+.btn-transp, .btn-transp:hover, .btn-transp:visited{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 100%
+}
+
+.input-transp{
+    color: #fff;
+    border: 0;
+    border-bottom: 1px #fff solid;
+    background-color:rgba(144,  203,  44,  0);
+    width: 100%;
+}
+
+.input-transp::placeholder{
+    border: 0;
+    color: #fff;
+    background-color:rgba(144,  203,  44,  0);
+}
+
+
