@@ -7,6 +7,8 @@
         <!-- Chamada JS e CSS do Bootstrap-->
         <script src="./js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         <link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <!-- Chamada do JS principal -->
+        
         <!-- Chamada para meu CSS -->
         <link href="./css/styles.css" rel="stylesheet">
         <!-- Google fonts -->
@@ -14,28 +16,35 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
     </head>
-    <body class="background-image">
-        <div class="container">
-            <div class="row align-items-center justify-content-center p-2 m-2">
-                <div class="col-sm-6 col-md-6 col-xxl-6 p-6">
-                    <img src="./images/Finautica.svg" class="mx-auto d-block p-4 m-4" alt="Logotipo da Finautica">
-                    <form>
-                        <div class="mb-3">
-                            <input type="email" class="input-transp" id="InputEmail" aria-describedby="emailHelp" placeholder="Endereço de email">
-                        </div>
-                        <div class="mb-3">
-                            <input type="password" class="input-transp" id="InputPassword" placeholder="Senha">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Lembrar minha senha</label>
-                        </div>
-                        <button type="submit" class="btn btn-lg btn-white">Entrar</button>
-                    </form>
-                    <a href="./pages/cadastro.html" class="btn btn-green btn-lg">Cadastre-se</a>
-                    <a href="./pages/esqueceusuasenha.html" class="btn-transp btn-lg">Esqueceu sua senha?</a>
+
+    <body class="body-background">
+        <div class="bg-image body-background shadow-1-strong">
+            <video style="pointer-events: none;"" playsinline autoplay muted loop>
+                <source class="h-100" src="./images/video.mp4" type="video/mp4" />
+            </video>
+            <div class="container login-container fixed-top">
+                <div class="row align-items-center justify-content-center p-2 m-2">
+                    <div class="col-sm-6 col-md-6 col-xxl-6 p-6">
+                        <img src="./images/Finautica.svg" class="mx-auto d-block p-4 m-4 mt-6"  alt="Logotipo da Finautica">
+                        <form action="" id="loginForm">
+                            <div class="mb-3">
+                                <input type="email" class="input-transp" id="inputEmail" aria-describedby="emailHelp" placeholder="Endereço de email">
+                            </div>
+                            <div class="mb-4">
+                                <input type="password" class="input-transp" id="inputPassword" placeholder="Senha">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="check-senha">
+                                <label class="form-check-label text-transp mb-5" for="check-senha">Lembrar minha senha</label>
+                            </div>
+                            <button type="submit" class="btn btn-lg btn-white mb-3">Entrar</button>
+                        </form>
+                        <a href="./pages/cadastro.html" class="btn btn-green btn-lg mb-5">Cadastre-se</a>
+                        <a href="./pages/esqueceusuasenha.html" class="mx-auto d-block btn-transp btn-lg  mb-3">Esqueceu sua senha?</a>
+                    </div>
                 </div>
             </div>
         </div>
     </body>
+    <script src="./js/principal.js"></script>
 </html>
